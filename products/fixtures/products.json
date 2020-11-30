@@ -3,18 +3,43 @@
     "pk": 1,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001340155",
-      "name": "Arizona Original Bootcut Jeans",
-      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
-      "price": 53.99,
-      "category": 6,
-      "rating": 4.6,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0709201205510679M.jpg"
+      "sku": "lp57",
+      "name": "Gibson LP 57 Black Beauty Gloss",
+      "description": "The Custom Historic '57 Les Paul Custom Reissue was a tribute to the late-'50s Black Beauty Les Pauls. Features a mahogany body, ebony fretboard, and Burstbucker pickups. Options included two or three pickups, and a Bigsby or stop-bar tailpiece. Available in Ebony VOS or Gloss. Updated in 2015 with Gibson's True Historic Line.",
+      "price": 6498,
+      "category": 1,
+      "image_url": "https://img.static-thomann.de/pics/prod/437327.jpg",
+      "image": "gibson_lp_57.wbp"
     }
   },
   {
     "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "g6120",
+      "name": "Gretsch G6120 Eddie Cochran",
+      "description": "Gretsch honors the legacy of rock 'n' roll and rockabilly pioneer Eddie Cochran with the G6120 Eddie Cochran Signature Hollow Body model, based on the distinctively modified guitar that fueled Cochran's highly influential and all-too-brief career.",
+      "price": 3199,
+      "category": 1,
+      "image_url": "https://img.static-thomann.de/pics/prod/270125.jpg",
+      "image": "gretch_g6120.webp"
+    }
+  },
+    {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "6pn",
+      "name": "Music Man John Petrucci Majesty 6 PN",
+      "description": "Music Man John Petrucci Majesty 6 CT, Electric Guitar, John Petrucci (Dream Theater) 'Enchanted Forrest' Signature Model, Body: Mahogany",
+      "price": 5599,
+      "category": 1,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "6pn.webp"
+    }
+  },
+  {
+    "pk": 4,
     "model": "products.product",
     "fields": {
       "sku": "pp5001600425",
@@ -22,10 +47,108 @@
       "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
       "price": 58.99,
       "category": 4,
-      "rating": 4.6,
+      "image_url": "https://img.static-thomann.de/pics/prod/491621.jpg",
+      "image": "DP0113201617034987M.jpg"
+    }
+  },  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Arizona Original Bootcut Jeans",
+      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
+      "price": 53.99,
+      "category": 6,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0709201205510679M.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
+      "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
+      "price": 58.99,
+      "category": 4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
       "image": "DP0113201617034987M.jpg"
     }
-  }
-  
+  },  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Arizona Original Bootcut Jeans",
+      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
+      "price": 53.99,
+      "category": 6,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0709201205510679M.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
+      "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
+      "price": 58.99,
+      "category": 4,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0113201617034987M.jpg"
+    }
+  },  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Arizona Original Bootcut Jeans",
+      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
+      "price": 53.99,
+      "category": 6,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0709201205510679M.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
+      "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
+      "price": 58.99,
+      "category": 4,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0113201617034987M.jpg"
+    }
+  },  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Arizona Original Bootcut Jeans",
+      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
+      "price": 53.99,
+      "category": 6,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0709201205510679M.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
+      "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
+      "price": 58.99,
+      "category": 4,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0113201617034987M.jpg"
+    }
+  },
 ]
