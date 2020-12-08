@@ -1,7 +1,7 @@
 [
   {
-    "pk": 1,
     "model": "products.product",
+    "pk": 1,
     "fields": {
       "sku": "lp57",
       "name": "Gibson LP 57 Black Beauty Gloss",
@@ -44,8 +44,7 @@
     "fields": {
       "sku": "gib1942",
       "name": "Gibson 1942 Banner LG-2 Vintage SB",
-      "description": "This little giant produces a charming and seductive tone that rivals much larger-bodied guitars while maintaining exceptional clarity and focus in individual notes. The 1942 Banner LG-2 is extremely well-balanced, fast-playing and full of tone delivered by a select Thermally Aged Adirondack red spruce top and mahogany back and sides. 
-        Ideal for folk, blues, and finger style, this delicately balanced model maintains a full dynamic range in a compact package.",
+      "description": "This little giant produces a charming and seductive tone that rivals much larger-bodied guitars while maintaining exceptional clarity and focus in individual notes. The 1942 Banner LG-2 is extremely well-balanced, fast-playing and full of tone delivered by a select Thermally Aged Adirondack red spruce top and mahogany back and sides.",
       "price": 3998,
       "category": 2,
       "image_url": "products/product_images/gib1942",
@@ -66,7 +65,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 6,
     "model": "products.product",
     "fields": {
       "sku": "guim25e",
@@ -79,7 +78,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 7,
     "model": "products.product",
     "fields": {
       "sku": "taygturb",
@@ -92,7 +91,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 8,
     "model": "products.product",
     "fields": {
       "sku": "fpbmyst",
@@ -105,7 +104,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 9,
     "model": "products.product",
     "fields": {
       "sku": "fpbmnbcr",
@@ -119,7 +118,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 10,
     "model": "products.product",
     "fields": {
       "sku": "fjbpine",
@@ -132,7 +131,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 11,
     "model": "products.product",
     "fields": {
       "sku": "fjbblk",
@@ -145,7 +144,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 12,
     "model": "products.product",
     "fields": {
       "sku": "cngrand",
@@ -158,7 +157,7 @@
     }
   },
       {
-    "pk": 5,
+    "pk": 13,
     "model": "products.product",
     "fields": {
       "sku": "cne6d",
@@ -171,7 +170,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 14,
     "model": "products.product",
     "fields": {
       "sku": "ksv2s",
@@ -184,7 +183,7 @@
     }
   },
     {
-    "pk": 5,
+    "pk": 15,
     "model": "products.product",
     "fields": {
       "sku": "rfp30wh",
