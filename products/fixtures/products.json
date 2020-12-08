@@ -9,7 +9,7 @@
       "price": 6498,
       "category": 1,
       "image_url": "products/product_images/lp57",
-      "image": "gibson_lp_57.wbp"
+      "image": "lp57.jpg"
     }
   },
   {
@@ -22,7 +22,7 @@
       "price": 3199,
       "category": 1,
       "image_url": "products/product_images/g6120",
-      "image": ""
+      "image": "g6120.jpg"
     }
   },
     {
@@ -35,7 +35,7 @@
       "price": 5599,
       "category": 1,
       "image_url": "products/product_images/6pn",
-      "image": ""
+      "image": "6pn.jpg"
     }
   },
   {
@@ -49,7 +49,7 @@
       "price": 3998,
       "category": 2,
       "image_url": "products/product_images/gib1942",
-      "image": ""
+      "image": "gib1942.jpg"
     }
   },  {
     "pk": 5,
@@ -62,7 +62,7 @@
       "price": 1999,
       "category": 2,
       "image_url": "products/product_images/takp6n",
-      "image": ""
+      "image": "takp6n.jpg"
     }
   },
     {
@@ -75,7 +75,7 @@
       "price": 1745,
       "category": 2,
       "image_url": "products/product_images/guim25e",
-      "image": ""
+      "image": "guim25e.jpg"
     }
   },
     {
@@ -88,7 +88,7 @@
       "price": 1633,
       "category": 2,
       "image_url": "products/product_images/taygturb",
-      "image": ""
+      "image": "taygturb.jpg"
     }
   },
     {
@@ -101,7 +101,7 @@
       "price": 1855,
       "category": 3,
       "image_url": "products/product_images/fpbmyst",
-      "image": ""
+      "image": "fpbmyst.jpg"
     }
   },
     {
@@ -115,7 +115,7 @@
       "price": 719,
       "category": 3,
       "image_url": "products/product_images/fpbmnbcr",
-      "image": ""
+      "image": "fpbmnbcr.jpg"
     }
   },
     {
@@ -128,7 +128,7 @@
       "price": 1855,
       "category": 3,
       "image_url": "products/product_images/fjbpine",
-      "image": ""
+      "image": "fjbpine.jpg"
     }
   },
     {
@@ -141,7 +141,7 @@
       "price": 1855,
       "category": 3,
       "image_url": "products/product_images/fjbblk",
-      "image": ""
+      "image": "fjbblk.jpg"
     }
   },
     {
@@ -154,7 +154,7 @@
       "price": 3299,
       "category": 4,
       "image_url": "products/product_images/cngrand",
-      "image": ""
+      "image": "cngrand.jpg"
     }
   },
       {
@@ -167,7 +167,7 @@
       "price": 1639,
       "category": 4,
       "image_url": "products/product_images/cne6d",
-      "image": ""
+      "image": "cne6d.jpg"
     }
   },
     {
@@ -180,7 +180,7 @@
       "price": 2145,
       "category": 4,
       "image_url": "products/product_images/ksv2s",
-      "image": ""
+      "image": "ksv2s.jpg"
     }
   },
     {
@@ -193,7 +193,7 @@
       "price": 622,
       "category": 4,
       "image_url": "products/product_images/rfp30wh",
-      "image": ""
+      "image": "rfp30wh.jpg"
     }
   }
 ]
