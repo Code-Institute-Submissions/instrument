@@ -1,7 +1,7 @@
 [
   {
-    "model": "products.product",
     "pk": 1,
+    "model": "products.product",
     "fields": {
       "sku": "lp57",
       "name": "Gibson LP 57 Black Beauty Gloss",
@@ -50,7 +50,8 @@
       "image_url": "products/product_images/gib1942",
       "image": "gib1942.jpg"
     }
-  },  {
+  },  
+  {
     "pk": 5,
     "model": "products.product",
     "fields": {
