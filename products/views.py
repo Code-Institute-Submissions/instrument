@@ -12,5 +12,5 @@ def all_products(request):
         'products': products,
     }
 
-    return render(request, 'home/products.html', context)
+    return render(request, 'products/products.html', context)
 # Copied from the home views.py but it is important to add in the context as we will be passing items through.
