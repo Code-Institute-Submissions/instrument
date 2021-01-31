@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    /*background: url('/media/homepage_background_cropped.jpg') no-repeat*/center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    background-color: #c9cad9 ;
     font-family: 'Lato';
 }
 
@@ -21,33 +21,35 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    color: #ba324f;
 }
 
 .main-logo-link {
     width: fit-content;
+    color: #ba324f;
 }
 
 .shop-now-button {
-    background: black;
+    background: #D1D2F9;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: #576490;
     color: white;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    color: #576490 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #576490;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #ba324f;
     color: white !important;
 }
 
@@ -57,20 +59,20 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #ba324f;
     color: white;
 }
 
 .text-black {
-    color: #000 !important;
+    color: black !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #576490 !important;
 }
 
 .bg-black {
-    background: #000 !important;
+    background: #576490 !important;
 }
 
 .overlay {
@@ -85,7 +87,7 @@ body {
 
 a.category-badge > span.badge:hover {
     background: #212529 !important;
-    color: #fff !important;
+    color: #D1D2F9 !important;
 }
 
 .btt-button {
@@ -103,7 +105,7 @@ a.category-badge > span.badge:hover {
 }
 
 input[name='q']::placeholder {
-    color: #aab7c4;
+    color: #D1D2F9;
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -129,7 +131,7 @@ input[name='q']::placeholder {
     height: 0; 
     border-left: 4px solid transparent;
     border-right: 4px solid transparent; 
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #576490;
     position: absolute;
     top: -10px;
     right: 36px;
@@ -191,7 +193,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: #576490;
     border-radius: 0;
 }
 
@@ -200,7 +202,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
+    color: #D1D2F9;
 }
 
 .allauth-form-inner-content button,
@@ -208,15 +210,15 @@ input[name='q']::placeholder {
 	/* btn */
 	display: inline-block;
     font-weight: 400;
-    color: #fff;
+    color: #D1D2F9;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #576490;
+    border: 1px solid #576490;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -228,9 +230,9 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
-    background-color: #222;
-    border-color: #222;
+	color: #D1D2F9;
+    background-color: #576490;
+    border-color: #576490;
 }
 
 .allauth-form-inner-content a {
@@ -256,12 +258,12 @@ input[name='q']::placeholder {
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
-    border-color: #dc3545;
+    border-color: #7796CB;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #7796CB;
+    border-color: #7796CB;
     border-radius: 0;
 }
 
@@ -293,6 +295,7 @@ input[name='q']::placeholder {
 
     .display-4.logo-font.text-black {
         font-size: 2rem;
+        color: #ba324f;
     }
 
     .nav-link {

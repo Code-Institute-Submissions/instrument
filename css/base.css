@@ -3,10 +3,12 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    /*background: url('/media/homepage_background_cropped.jpg') no-repeat */
+    background-color: red;
+    center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: red;
     font-family: 'Lato';
 }
 
@@ -28,20 +30,20 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #D1D2F9;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background:#7796CB;
     color: white;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    color: #576490 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #576490;
 }
 
 .btn-outline-black:hover,

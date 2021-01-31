@@ -19,10 +19,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get(
-    'SECRET_KEY', '')
+    'SECRET_KEY','l82$%f^dvc94*9blrxh3&s4tkqeepv@kpi@d#c!zz^un7f@ly&')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG =True #'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['instrument-shop.herokuapp.com', 'localhost']
 
