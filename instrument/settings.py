@@ -67,7 +67,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'instrument.urls'
+ROOT_URLCONF = 'instrument-shop.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
