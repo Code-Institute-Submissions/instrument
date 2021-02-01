@@ -1,45 +1,47 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Problem Statement
+Instrument looks to simplify buying instruments for users. The usual websites for purchasing instruments are filled with a lot of distractions and a lot of accessories that distract from the instrument purchasing experience.
 
-Welcome sammckenna1986,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Proposed Solution
+Instrument looks to simplify the purchasing of instruments by providing no distractions and just showcasing a select few instruments each month.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+User Story 1: Signup, log-in, authentication and authorisation
 
-`python3 -m http.server`
+A user is able to create an account. The user is able to log in with their own user credentials and is able to keep their account safe.
 
-A blue button should appear to click: *Make Public*,
+User Story 2: Viewing and searching for Products
 
-Another blue button should appear to click: *Open Browser*.
+The user is able to navigate to products using the dropdown menu and is able to search for specific products using the search bar.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+User Story 3: Managing Products through the admin superuser
 
-A blue button should appear to click: *Make Public*,
+The user is able to create, delete, edit and generally manage products throught the admin superuser functionality that is available to them through the dropdown menu.
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+User Story 4: Keeping products in a shopping bag
 
-## Updates Since The Instructional Video
+The user is able to add products to the shopping bag and come back to them another time.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+User Story 5: Purchasing products through the stripe integration
+A user is able to purchase a product through the stripe integration. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+User Story 6: A user receives email confirmations on purchases. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Current Bugs
+- The stripe webhook handler is
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Technologies Used
+Bootstrap
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Google Fonts 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Python
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+[Django] https://docs.djangoproject.com/en/3.1/ for creating and managing applications, templates, views and urls.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+CSS
 
---------
+[AWS] https://aws.amazon.com/ for storing the static files and the media files.
 
-Happy coding!
+
