@@ -1,4 +1,5 @@
 <h1>Instrument</h1>
+<img src="/static/readme_images/homepage.png">
 
 
 <h3>Problem Statement</h3>
@@ -10,27 +11,30 @@ Instrument looks to simplify the purchasing of instruments by providing no distr
 
 
 <h3>User Story 1: Signup, log-in, authentication and authorisation</h3>
-
+<img src="/static/readme_images/signup.png">
 A user is able to create an account. The user is able to log in with their own user credentials and is able to keep their account safe.
 
 <h3>User Story 2: Viewing and searching for Products</h3>
-
+<img src="/static/readme_images/basses.png">
 The user is able to navigate to products using the dropdown menu and is able to search for specific products using the search bar.
 
 <h3>User Story 3: Managing Products through the admin superuser</h3>
-
+<img src="/static/readme_images/product_admin.png">
 The user is able to create, delete, edit and generally manage products throught the admin superuser functionality that is available to them through the dropdown menu.
 
 
 <h3>User Story 4: Keeping products in a shopping bag</h3>
-
+<img src="/static/readme_images/add_to_bag.png">
+<img src="/static/readme_images/shopping_bag.png">
 The user is able to add products to the shopping bag and come back to them another time.
 
-User Story 5: Purchasing products through the stripe integration
+<h3>User Story 5: Purchasing products through the stripe integration</h3>
+<img src="/static/readme_images/purchase.png">
 A user is able to purchase a product through the stripe integration. 
 
-<h3>User Story 6: A user receives email confirmations on purchases </h3> 
+<h3>User Story 6: A user receives email confirmations on purchases</h3> 
 
+<h3>User Story 7: A user is able to see their own user profile page</h3> 
 <h3>Current Bugs</h3>
 <b>For some reason the profile.html template is not displaying as django says it is not there:</b>
 <br>
