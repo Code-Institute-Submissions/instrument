@@ -34,7 +34,11 @@ A user is able to purchase a product through the stripe integration.
 
 <h3>User Story 6: A user receives email confirmations on purchases</h3> 
 
-<h3>User Story 7: A user is able to see their own user profile page</h3> 
+<h3>User Story 7: A user is able to see their own user profile page</h3>
+
+<h3>Testing</h3>
+I went through all of the user stories above and everything works fine, especially as I followed the instructional videos in fine detail, except for the bug that I outlined below. 
+
 <h3>Current Bugs</h3>
 <b>For some reason the profile.html template is not displaying as django says it is not there:</b>
 <br>
@@ -68,6 +72,11 @@ Python Path:
  '/app/.heroku/python/lib/python3.6/site-packages']
  <br>
 Server time:	Mon, 01 Feb 2021 14:06:12 +0000
+
+<h3>Deployment</h3>
+1. Created a Heroku account and linked my github with Heroku
+2. Created an AWS account and used it to house the static and the media files.
+3. I deployed the project on Heroku.
 
 <h3>Technologies Used</h3>
 Bootstrap
